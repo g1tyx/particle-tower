@@ -340,6 +340,7 @@ var cnRegReplace = new Map([
     [/^Effect: Heals (.+) HP per second$/, '效果：每秒治疗 $1 生命值'],
     [/^Effect: (.+) Base DMG$/, '效果：$1 基础伤害'],
     [/^Effect: (.+) DMG$/, '效果：$1 伤害'],
+    [/^Effect: (.+) DMG when below (.+) HP$/, '效果：$1 伤害当生命低于 $2 时'],
     [/^Effect: (.+) HP$/, '效果：$1 生命'],
     [/^Effect: (.+) SPD$/, '效果：$1 速度'],
     [/^Effect: (.+) Critical Hit Chance \(5x DMG\)$/, '效果：$1 暴击率（5x 伤害）'],
